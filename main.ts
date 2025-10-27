@@ -77,7 +77,7 @@ game.onPaint(function () {
 
     // Show "→ Stop Alarm" just below the menu if alarm is active
     if (alarmPlaying) {
-        screen.print("→ Stop Alarm", 10, 20 + menuOptions.length * 20 + 2, 2)
+        screen.print("→ Stop Alarm", 10, 20 + menuOptions.length * 20 - 4, 2)
     }
 
     // Show countdown if active
